@@ -1,0 +1,382 @@
+@media (max-width:1779px) {
+.header__sec{ padding-left: 50px;}
+.hero__sec .inner{ min-height: auto; height: calc(100vh - 90px);}
+
+.blog-slider .splide__arrow--prev{ left: -60px;}
+.blog-slider .splide__arrow--next{ right: -60px;}
+}
+
+@media (max-width:1579px) {
+body{ padding-top: 72px; font-size: 16px;}
+p{ font-size: 16px; line-height: 27px;}
+
+h1{ font-size: 75px; line-height: 80px;}
+h2{ font-size: 40px; line-height: 40px;}
+h3{ font-size: 30px;}
+h4{ font-size: 20px;}
+h5{ font-size: 18px;}
+.view_link{ font-size: 18px;}
+.btn-theme{ font-size: 18px;}
+
+.header__sec{ padding-left: 20px;}
+.header__sec .navbar-brand{ width: 170px;}
+.book_btn{ padding: 25px 15px; font-size: 15px;}
+.ph_btn{ font-size: 16px; padding: 11px 15px;}
+.header__sec .navbar-light .navbar-nav .nav-item{ margin-right: 20px;}
+.header__sec .navbar-light .navbar-nav .nav-link{ font-size: 15px; padding: 25px 0;}
+.hero__sec .inner{ height: calc(100vh - 72px);}
+.hero__sec .detail{ max-width: 650px;}
+.hero__sec .detail p{ font-size: 20px;}
+.filter .form-block .form-control, .filter .form-block .adult_btn{ height: 52px;}
+.welcome__sec .detail{ padding-left: 40px;}
+.welcome__sec figure img{ width: 500px;}
+ul.list__style1 li{ line-height: normal;}
+.experience_item .img_box{ height: 350px;}
+.tariff_item figure{ height: 280px;}
+.tariff_item .price{ font-size: 18px;}
+.tariff_item .price small{ font-size: 85%;}
+.blog-slider{ padding: 0 40px;}
+.blog-slider .splide__arrow--prev{ left: -30px;}
+.blog-slider .splide__arrow--next{ right: -30px;}
+.leftright__sec .detail{ padding-left: 5%; padding-right: 30px;}
+.leftright__sec .flex-row-reverse .detail{ padding-left: 30px; padding-right: 5%;}
+.testi_main-slider p{ font-size: 22px; line-height: 37px;}
+.foot_list li{ font-size: 16px;}
+
+/* About Us Page */
+.about__sec h5{ line-height: 30px;}
+.counter_item strong{ font-size: 80px;}
+.misvis_item{ max-width: 319px;}
+
+/* Accommodation Page */
+.accommodation__sec h5{ line-height: 30px;}
+.accomodation_block .right_detail{ padding-left: 30px;}
+.pricebook .price{ padding: 7px 10px 8px 15px;}
+.pricebook .price strong{ font-size: 22px;}
+.reviews_info .reviews_head{ padding-left: 20px;}
+.reviews_info .reviews_body { padding: 22px 20px 25px 20px;}
+.reviews-slider .splide__arrows{ right: -20px;}
+.accomodation_list{ grid-template-columns: 0.8fr 1fr;}
+.accomodation_list .item{ padding: 10px 6px 10px 10px;}
+.accomodation_list .item p{ font-size: 14px; line-height: normal;}
+
+/* facilities page */
+.facilities_card .caption{ padding: 20px 30px;}
+.facilities_card > img{ height: 420px;}
+
+/* Book a Room page */
+.book-accordion .accordion-button{ font-size: 22px;}
+.bookroom_aside{ padding-left: 0;}
+.aside-accordion .accordion-button{ font-size: 18px;}
+.book-accordion .edit-link{ font-size: 16px;}
+.default-calendar .datepicker td{ width: 37px; height: 37px;}
+.default-calendar .datepicker table tr td span { height: 60px; line-height: 60px;}
+.corpoadd-info p{ font-size: 14px; line-height: 23px;}
+.corpoadd-info p b{ font-size: 18px;}
+.aside-accordion p{ font-size: 14px; line-height: 23px;}
+.product_card h4 span{ display: block;}
+.product_card .max_lists{ display: block;}
+.product_card .max_lists .max_list{ padding-right: 0; margin-right: 0; border: none; display: flex;}
+.product_card .price_dtl strong{ font-size: 22px;}
+.btn-theme.sm{ font-size: 13px;}
+.price_cate_list{ gap: 10px 15px;}
+.price_cate_list span{ font-size: 18px;}
+.btn-theme.md{ min-width: 100px;}
+.table thead tr th, .table tbody tr td{ white-space: nowrap; font-size: 15px;}
+.booking-detail-table .item{ padding: 7px 10px; gap: 20px; font-size: 15px;}
+.booking-detail-table .item b{ min-width: auto;}
+
+/* Weddings page */
+.wedding__sec h5{ line-height: 30px;}
+.surrounded__sec .detail{ max-width: 552px;}
+}
+
+@media (max-width:1199px) {
+h1{ font-size: 54px; line-height: 1;}
+h2{ font-size: 34px; line-height: 1;}
+h3{ font-size: 26px;}
+
+.py-120, .pt-120{ padding-top: 80px;}
+.py-120, .pb-120{ padding-bottom: 80px;}
+.pb-80{ padding-bottom: 60px;}
+.mt-80{ margin-top: 40px;}
+
+.header__sec{ padding: 6px 5%; min-height: 72px;}
+.navbar-toggler{ background:none; border:none; position:relative; right:0; top:0; box-shadow:none !important;}
+.header__sec .offcanvas { background:var(--whiteColor); width: 100%; max-width: 360px;}
+.header__sec .offcanvas-end-xl { top: 0; right: -1px; border: none; transform: translateX(100%);}
+.header__sec .navbar-nav .dropdown-menu{ background:none; border: none;}
+.header__sec .navbar-light .navbar-nav .nav-item{ margin: 0; border-bottom: 1px solid rgba(0,0,0,0.1);}
+.header__sec .navbar-light .navbar-nav .nav-link{ font-size: 18px; padding: 10px 0; display: flex; justify-content: space-between; align-items: center;}
+.header__sec .navbar-light .navbar-nav .nav-item > .dropdown-toggle{ top: 12px; transform: inherit;}
+.header__sec .navbar-nav .dropdown-menu{ padding: 0 0 5px 0; margin-right: -20px;}
+.header__sec .dropdown-item{ padding: 8px 0; font-size: 17px; background: none !important; border-top: 1px solid rgba(0,0,0,0.1);}
+.header__sec .dropdown-item:hover, .header__sec .dropdown-item:focus{ color: var(--secondaryColor);}
+.book_btn{ padding: 12px 15px; font-size: 17px;}
+.ph_btn{ font-size: 17px;}
+.hero__sec .detail{ max-width: 520px;}
+.hero__sec .detail p{ font-size: 16px;}
+.filter .form-block .form-control, .filter .form-block .adult_btn{ padding: 0 12px; font-size: 16px;}
+.welcome__sec .detail{ padding-left: 30px;}
+ul.list__style1 li::before { width: 24px; min-width: 24px; height: 24px;}
+.experience_item .img_box{ height: 30vw; margin-bottom: 30px;}
+.tariff_item figure{ height: 22vw;}
+.leftright__sec .detail{ padding-top: 60px; padding-bottom: 60px;}
+.leftright__sec figure{ min-height: 560px;}
+.facilities_grid{ grid-template-columns: repeat(4,1fr);}
+.facilities_item figure{ width: 80px; height: 80px; padding: 15px;}
+.testi-slider{ gap: 30px;}
+.testi_main-slider{ margin-top: 80px; width: calc(100% - 100px);}
+.testi_main-slider p{ font-size: 18px; line-height: 32px; margin-bottom: 30px;}
+.spotlight_item .caption{ padding: 30px;}
+.blog-slider{ padding: 0 30px;}
+.blog__sec{ padding-bottom: 20px;}
+.newsletter__sec{ padding-bottom: 300px;}
+.newsletter__sec p{ font-size: 17px;}
+.footer__sec .grid{ grid-template-columns: repeat(3, auto);}
+.copyright { padding: 15px 0; margin-top: 30px;}
+.footer__sec figure{ margin-bottom: 30px;}
+.foot_list li{ margin-bottom: 8px;}
+.foot_list.cont_list li{ margin-bottom: 12px;}
+.gallery__sec img{ max-height: 250px;}
+
+/* About Us Page */
+.inner__banner{ padding: 140px 0;}
+.counter_item strong { font-size: 60px;}
+.counter_item p{ font-size: 17px;}
+.counter_item{ margin-top: 30px;}
+
+/* Accommodation Page */
+.accomodation-slider{ flex-direction: column-reverse;}
+.accomod_main-slider{ width: 100%;}
+.accomod_thumb-slider{ width: 100%;}
+
+/* facilities page */
+.facilities_card > img{ height: 380px;}
+
+/* Book a Room page */
+.form-group label{ margin-bottom: 5px;}
+.form-group{ margin-bottom: 20px;}
+
+.book-accordion .accordion-item{ margin-bottom: 20px;}
+.book-accordion .accordion-button{ padding-left: 20px; font-size: 20px;}
+.book-accordion .edit-link{ padding-right: 20px;}
+.aside-accordion .accordion-item{ margin-bottom: 20px;}
+.aside-accordion .accordion-button{ padding: 12px 20px; font-size: 17px;}
+.book-accordion .accordion-body{ padding: 20px;}
+.product_card{ padding: 15px;}
+.product_card h4 span{ font-size: 14px;}
+.product_card figure { width: 100%; min-width: 100%;}
+.product_card figure img{ height: 300px;}
+.product_card .product_info{ flex-direction: column;}
+.product_card .product_detail{ width: 100%;}
+.price_cate_list{ padding: 10px;}
+.price_cate_list span{ line-height: normal; font-size: 16px;}
+.btn-theme.md{ font-size: 16px;}
+.booking-detail-table .item { gap: 4px; flex-direction: column; align-items: flex-start;}
+.coupon-form{ margin-bottom: 20px;}
+
+/* Weddings page */
+.wedding__sec .detail .row { --bs-gutter-x: 30px;}
+.begin__sec .detail{ padding: 0 0 0 30px;}
+.surrounded__sec .detail{ max-width: 100%;}
+.wedding__sec h5{ margin-bottom: 30px;}
+
+/* Contact Page */
+.connect__sec .detail{ padding: 30px;}
+.connect__sec textarea{ height: 100px;}
+.add_info{ padding: 20px;}
+}
+
+/************ Main **************/
+@media (max-width: 991px) {
+h1{ font-size: 40px; line-height: 1;}
+h2{ font-size: 34px; line-height: 1;}
+
+.py-120, .pt-120{ padding-top: 40px;}
+.py-120, .pb-120{ padding-bottom: 40px;}
+.pb-80{ padding-bottom: 40px;}
+.mt-80{ margin-top: 20px;}
+
+.hero__sec .detail{ max-width: 100%;}
+.hero__sec .inner{ padding-bottom: 20px;}
+.filter__sec{ background: var(--primaryGradient); padding: 30px 0;}
+.filter{ display: flex; flex-wrap: wrap; justify-content: center; margin-top: 0;}
+.filter .checkinout, .filter .personcount{ width: calc(50% - 10px);}
+.filter .form-block .form-control, .filter .form-block .adult_btn{ height: 46px;}
+.blog-slider .splide__arrow--prev{ left:-8px; width:36px; height:36px;}
+.blog-slider .splide__arrow--next{ right: -8px; width:36px; height:36px;}
+.welcome__sec figure{ margin-top: 30px;}
+.welcome__sec figure img{ width: 100%;}
+.welcome__sec .detail{ padding: 0;}
+.tariff_item figure{ height: 42vw;}
+.leftright__sec .detail { padding-top: 40px; padding-bottom: 40px;}
+.facilities_grid { grid-template-columns: repeat(3,1fr);}
+.facilities_item{ padding: 34px 10px 10px 10px;}
+.facilities_item h4{ line-height: normal; min-height: 52px;}
+.experience_item .img_box h4{ padding-bottom: 14px;}
+.spotlight_item figure img{ height: 50vw; min-height: 200px;}
+.spotlight_item .caption{ display: block;}
+.spotlight_item p{ line-height: 24px; margin-bottom: 10px;}
+.blog-slider{ padding: 0;}
+.blog_item{ margin: 0 2px !important;}
+.newsletter__sec{ padding-bottom: 200px;}
+.footer__sec .grid{ display: flex; flex-wrap: wrap; gap: 20px 0; margin: 0 -15px; justify-content: flex-start;}
+.footer__sec .grid .item{ width: 33.3333%; padding: 0 15px;}
+.footer__sec .grid .item:last-child{ width: auto;}
+.social_list li a{ width: 40px; height: 40px;}
+.testi_main-slider .author{ font-size: 18px;}
+.testi_main-slider .author span{ font-size: 16px;}
+.gallery__sec img{ max-height: 220px;}
+.footer__sec{ padding-top: 40px;}
+
+/* About Us Page */
+.inner__banner{ padding: 100px 0;}
+.about__sec h5{ margin-bottom: 30px;}
+.counter_item strong { font-size: 45px; line-height: 90%;}
+.counter_item p { font-size: 14px;}
+.misvis_item { max-width: 100%; margin-bottom: 30px;}
+.gallery__sec ~ .newsletter__sec{ padding-top: 20px;}
+
+/* Accommodation Page */
+.accomodation_block .right_detail{ padding: 30px 0 0;}
+.pricebook .price{ padding: 8px 20px 8px 20px;}
+
+/* facilities page */
+.facilities_card > img{ height: 40vw;}
+.facilities_card .caption { padding: 20px 16px;}
+
+/* Book a Room page */
+.product_card figure { width: 230px; min-width: 230px;}
+.product_card figure img{ height: 190px;}
+.product_card .product_info{ flex-direction: row;}
+.default-calendar .datepicker td { width: 9vw; height: 9vw;}
+.default-calendar .datepicker table tr td span { height: 14vw; line-height: 14vw;}
+
+/* Weddings page */
+.conforts_items{ grid-template-columns: repeat(1, auto);}
+.surrounded__sec .left_img, .surrounded__sec .right_img{max-height: calc(247px + 30px); margin: 30px auto 0;}
+.faq__accordion .accordion-button{ font-size: 17px;}
+
+/* Contact Page */
+.add_info p b{ font-size: 18px; padding-top: 7px;}
+.map_info iframe{ height: 400px;}
+}
+
+@media (max-width: 767px) {
+html { -webkit-text-size-adjust:none;}
+.container{ width:90%; margin:0 auto; padding:0; max-width: inherit;}
+
+.filter{ gap: 10px 0;}
+.filter .btn-theme{ margin-top: 15px;}
+.filter .checkinout, .filter .personcount{ width: 100%;}
+.welcome__sec .detail .image{ justify-content: inherit; flex-direction: column; margin-top: 20px;}
+.experience_item .img_box{ height: 50vw; margin-bottom: 20px;}
+.leftright__sec figure{ min-height: 50vw;}
+.leftright__sec .flex-row-reverse .detail{ padding-left: 5%;}
+.leftright__sec .detail{ padding-right: 5%;}
+.testi-slider{ display: block;}
+.testi_main-slider{ width: 100%; padding:70px 0 0; background-size: 80px; margin-top: 0; background-position: top center; text-align: center;}
+.testimonial__sec .sec-title{ margin: 0 0 15px; padding: 0; text-align: center;}
+.testi_main-slider p{ font-size: 17px; line-height: 28px; margin-bottom: 20px;}
+.testi_main-slider .author{ margin-bottom: 30px;}
+.testi_thumbnail-slider{ margin: 0 auto;}
+.testimonial__sec .splide__arrow { background: var(--secondaryColor); border: none; font-size: 0.75rem; box-shadow: none; width:30px; height:30px; display:flex; justify-content: center; align-items: center; border-radius:50%; transition:all .3s ease-in-out; opacity: 1; color:var(--whiteColor);}
+.testimonial__sec .splide__arrow svg{ transition:all .3s ease-in-out; fill: var(--whiteColor);}
+.testimonial__sec .splide__arrow:hover{ background:var(--light-secondaryColor); opacity: 1;}
+.testimonial__sec .splide__arrow:hover svg{ fill: var(--whiteColor);}
+.testimonial__sec .splide__arrow--prev{ left: -30px;}
+.testimonial__sec .splide__arrow--next{ right: -30px;}
+.copyright{ text-align: center;}
+.gallery__sec img{ max-height: 180px;}
+.gallery_marqee { margin-top: 10px;}
+
+/* About Us Page */
+.inner__banner { padding: 80px 0;}
+.about__sec figure{ margin-bottom: 30px;}
+.counter_item p{ font-size: 16px;}
+.misvis_item i{ margin-bottom: 20px;}
+.about__sec h5 { line-height: 28px; font-size: 17px;}
+
+/* facilities page */
+.facilities_card > img{ height: 65vw;}
+.facilities_card .caption { padding: 20px;}
+
+/* Book a Room page */
+.product_card .product_info{ flex-direction: column;}
+.product_card figure { width: 100%; min-width: auto;}
+.product_card figure img{ height: 300px;}
+.table thead tr th:first-child, .table tbody tr td:first-child { padding-left: 10px;}
+.table thead tr th:last-child, .table tbody tr td:last-child{ padding-right: 10px;}
+
+/* Weddings page */
+.begin__sec .detail{ padding-left: 0;}
+.conforts_items{ grid-template-columns: repeat(2, auto); margin-bottom: 30px;}
+.faq__accordion .accordion-button{ padding: 10px 20px;}
+.faq__accordion .accordion-body{ padding-bottom: 10px;}
+.faq__accordion .accordion-button:not(.collapsed){ padding-bottom: 10px;}
+
+/* Contact Page */
+.connect__sec .detail{ padding: 30px 20px;}
+.connect__sec .sec-title{ margin-bottom: 25px;}
+.map_info iframe{ height: 280px;}
+
+.gallery-filter{ gap: 5px;}
+.gallery-filter button{ font-size: 15px;}
+}
+
+/************ iphone **************/
+@media (max-width:575px) {
+html { -webkit-text-size-adjust:none;}
+
+.experience_item .img_box{ height: 60vw;}
+.tariff_item figure{ height: 65vw;}
+.leftright__sec figure{ min-height: 80vw;}
+.facilities_grid{ grid-template-columns: repeat(2,1fr);}
+.facilities_item { padding: 25px 10px 20px 10px;}
+.facilities_item h4{ min-height: auto;}
+.facilities_item figure{ margin-bottom: 15px;}
+.spotlight_item .caption{ position: relative; background: var(--blackColor);}
+.facilities_item h4{ font-size: 18px;}
+.gallery__sec img{ max-height: 150px;}
+.newsletter__sec .input-group{ flex-direction: column;}
+.newsletter__sec .input-group .form-control{ width: 100%;}
+.newsletter__sec{ padding-bottom: 120px;}
+.footer__sec .grid .item{ width: 100%;}
+.footer__sec .grid .item:last-child{ width: 100%;}
+.copyright{ font-size: 14px;}
+.hero__sec .inner{ height: 70vw;}
+
+/* About Us Page */
+.inner__banner { padding: 60px 0;}
+
+/* facilities page */
+.facilities_card .caption{ padding: 20px;}
+.facilities_card > img{ height: 80vw;}
+.facilities_card .caption h2{ font-size: 28px;}
+
+/* Book a Room page */
+.book-accordion .accordion-button{ padding-left: 15px;}
+.book-accordion .edit-link{ padding-right: 15px;}
+.book-accordion .accordion-body { padding: 15px;}
+.product_card figure img { height: 55vw;}
+.product_card .product_detail{ display: block;}
+.product_card .price_dtl{ padding-top: 20px;}
+.price_cate_list{ flex-direction: column; align-items: flex-start; padding: 15px;}
+.price_cate_list span.price{ margin-bottom: 10px;}
+.coupon-form{ display: block;}
+.coupon-form.input-group label{ margin-bottom: 5px; display: block; padding-right: 0;}
+.coupon-form.input-group .form-control{ width: 100%; margin-bottom: 10px;}
+.aside-accordion .accordion-button{ padding: 12px 15px;}
+
+/* Weddings page */
+.wedding__sec .left_img, .wedding__sec .right_img{ transform: inherit; rotate: inherit; margin-top: 25px;}
+.conforts_items{ grid-template-columns: repeat(1, auto);}
+.surrounded__sec .detail ul.list__style2{ grid-template-columns: repeat(1, auto);}
+.surrounded__sec .left_img, .surrounded__sec .right_img{ transform: inherit; rotate: inherit;}
+
+/* Contact Page */
+.add_info{ display: block; text-align: center; padding: 30px 15px;}
+.add_info i{ margin: 0 auto 25px;}
+.add_info p b{ padding-top: 0;}
+}
