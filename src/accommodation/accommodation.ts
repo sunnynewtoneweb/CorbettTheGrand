@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
+import {provideNativeDateAdapter} from '@angular/material/core';
 
 @Component({
   selector: 'app-accommodation',
-  imports: [],
   templateUrl: './accommodation.html',
-  styleUrl: './accommodation.css'
+  styleUrl: './accommodation.css',
+  imports: [MatButtonModule],
+  providers: [provideNativeDateAdapter()],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Accommodation {
 

@@ -22,51 +22,61 @@
 		<div class="filter">
 			<div class="checkinout">
 				<div class="form-block">
-					<!-- <label>Check In</label>
-					<input type="text" class="form-control" id="datepicker1" placeholder="19 Jun, 2025" required /> -->
+					<label>Check In</label>
 					<mat-form-field>
-  <mat-label>Enter a date range</mat-label>
-  <mat-date-range-input [rangePicker]="picker">
-    <input matStartDate placeholder="Start date">
-    <input matEndDate placeholder="End date">
-  </mat-date-range-input>
-  <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
-  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-  <mat-date-range-picker #picker></mat-date-range-picker>
-</mat-form-field>
-
+						<mat-label>Choose a date</mat-label>
+						<input matInput [matDatepicker]="CheckIn">
+						<mat-datepicker-toggle matIconSuffix [for]="CheckIn"></mat-datepicker-toggle>
+						<mat-datepicker #CheckIn></mat-datepicker>
+					</mat-form-field>
 				</div>
 				<div class="form-block">
 					<label>Check Out</label>
-					<input type="text" class="form-control" id="datepicker2" placeholder="25 Jun, 2025" required/>
+					<mat-form-field>
+						<mat-label>Choose a date</mat-label>
+						<input matInput [matDatepicker]="CheckOut">
+						<mat-datepicker-toggle matIconSuffix [for]="CheckOut"></mat-datepicker-toggle>
+						<mat-datepicker #CheckOut></mat-datepicker>
+					</mat-form-field>
 				</div>
 			</div>
 			<div class="personcount">
 				<div class="form-block guests-input">
 					<label>Adults</label>
-					<button class="adult_btn">Adults</button>
-					<div class="guests-input__options">
-						<div>
-							<span class="guests-input__ctrl minus">-</span>
-							<span class="guests-input__value"><span>3</span>Adults</span>
-							<span class="guests-input__ctrl plus">+</span>
-						</div>
-					</div>
+					<mat-accordion>
+						<mat-expansion-panel hideToggle>
+							<mat-expansion-panel-header>
+								<mat-panel-title>Adults</mat-panel-title>
+							</mat-expansion-panel-header>
+							<div class="guests-input__options">
+								<div>
+									<span class="guests-input__ctrl minus">-</span>
+									<span class="guests-input__value"><span>3</span>Adults</span>
+									<span class="guests-input__ctrl plus">+</span>
+								</div>
+							</div>
+						</mat-expansion-panel>
+					</mat-accordion>
 				</div>
 				<div class="form-block guests-input guests-input2">
 					<label>Children</label>
-					<button class="adult_btn">Children</button>
-					<div class="guests-input__options">
-						<div>
-							<span class="guests-input__ctrl minus">-</span>
-							<span class="guests-input__value"><span>2</span>Children</span>
-							<span class="guests-input__ctrl plus">+</span>
-						</div>
-					</div>
+					<mat-accordion>
+						<mat-expansion-panel hideToggle>
+							<mat-expansion-panel-header>
+								<mat-panel-title>Children</mat-panel-title>
+							</mat-expansion-panel-header>
+							<div class="guests-input__options">
+								<div>
+									<span class="guests-input__ctrl minus">-</span>
+									<span class="guests-input__value"><span>2</span>Children</span>
+									<span class="guests-input__ctrl plus">+</span>
+								</div>
+							</div>
+						</mat-expansion-panel>
+					</mat-accordion>
 				</div>
 			</div>
-			<button class="btn-theme">Book Now</button>
-
+			<button matButton="filled" class="btn-theme">Book Now</button>
 		</div>
 	</div>
 </section>
@@ -88,7 +98,7 @@
 								<li>100 plush Cottages and Rooms</li>
 								<li>18 acres of landscaped gardens</li>
 							</ul>
-							<a href="#" class="btn-theme">Learn More</a>
+							<a matButton="filled" href="#" class="btn-theme">Learn More</a>							
 						</div>
 						<div class="col-md-6">
 							<div class="image"><img src="images/welcome-img2.jpg" alt=""></div>
@@ -159,7 +169,7 @@
 					<figure><a href="#"><img src="images/tariff_img1.jpg" alt=""></a></figure>
 					<h4><a href="#">Plunge Pool Cottages</a></h4>
 					<div class="price">₹7,000 <small>/ Night</small></div>
-					<button class="btn-theme">Book Now</button>
+					<button matButton="filled" class="btn-theme">Book Now</button>
 				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-sm-6">
@@ -167,7 +177,7 @@
 					<figure><a href="#"><img src="images/tariff_img2.jpg" alt=""></a></figure>
 					<h4><a href="#">Superior Cottages</a></h4>
 					<div class="price">₹7,000 <small>/ Night</small></div>
-					<button class="btn-theme">Book Now</button>
+					<button matButton="filled" class="btn-theme">Book Now</button>
 				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-sm-6">
@@ -175,7 +185,7 @@
 					<figure><a href="#"><img src="images/tariff_img3.jpg" alt=""></a></figure>
 					<h4><a href="#">Superior Room</a></h4>
 					<div class="price">₹7,000 <small>/ Night</small></div>
-					<button class="btn-theme">Book Now</button>
+					<button matButton="filled" class="btn-theme">Book Now</button>
 				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-sm-6">
@@ -183,7 +193,7 @@
 					<figure><a href="#"><img src="images/tariff_img4.jpg" alt=""></a></figure>
 					<h4><a href="#">Deluxe Rooms</a></h4>
 					<div class="price">₹7,000 <small>/ Night</small></div>
-					<button class="btn-theme">Book Now</button>
+					<button matButton="filled" class="btn-theme">Book Now</button>
 				</div>
 			</div>
 		</div>
@@ -197,7 +207,7 @@
 			<div class="detail">
 				<h2 class="sec-title">Weddings at Corbett <br> The Grand</h2>
 				<p class="mb-30">Weddings are beautiful with stunning landscapes, soothing weather, a  lush garden setting for your ceremony and a warm reception room. Corbett the Grand is the ideal choice for your destination wedding. Corbett the Grand meets all of your needs with a <b>100 room accommodation</b>, four spacious,  air-conditioned, versatile meeting and function venues, opening out to the pool & gardens, beautifully landscaped gardens, party lawns to  cater up to <b>2000 people</b> and the reserve. Indoor and outdoor areas for  breakout and catering.</p>
-				<a href="#" class="btn-theme">Book Now</a>
+				<button matButton="filled" class="btn-theme">Book Now</button>
 			</div>
 		</div>
 		<div class="col-md-6"><figure><img src="images/wedding_img.jpg" alt=""></figure></div>
@@ -207,7 +217,7 @@
 			<div class="detail">
 				<h2 class="sec-title">The famous jungles of Corbett National Park</h2>
 				<p class="mb-30">The famous jungles of Corbett National Park is a testimony to man’s  determination to secure places for wildlife to thrive and we are committed to keep it so. We aspire to promote responsible tourism in this <b>environmentally fragile zone</b> and are proud of our strong inclination towards promoting the indigenous ways of the local folk in its totality. At our resort you get a flavour of the legendary Kumauni  hospitality in its absolute entirety.</p>
-				<a href="#" class="btn-theme">Book Now</a>
+				<button matButton="filled" class="btn-theme">Book Now</button>
 			</div>
 		</div>
 		<div class="col-md-6"><figure><img src="images/famous_img.jpg" alt=""></figure></div>
