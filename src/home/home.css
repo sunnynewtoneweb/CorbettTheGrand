@@ -34,6 +34,7 @@ section{ padding:0; margin:0;}
 .filter .form-block .form-control{ width: 100%; height: 55px; padding: 0 23px; font-size: 17px; color: var(--txtColor); border: 1px solid #B3B3B3 !important; border-radius: 0; box-shadow: none; background: var(--whiteColor);}
 .filter .form-block + .form-block .form-control, .filter .form-block + .form-block .adult_btn{ border-left: none;}
 .filter .form-block .adult_btn{ width: 100%; height: 55px; padding: 0 23px; font-size: 17px; color: var(--txtColor); border: 1px solid #B3B3B3; border-radius: 0; box-shadow: none; background: var(--whiteColor); text-align: left;}
+.filter .form-block ::ng-deep .mat-mdc-form-field-infix{ width: 100%; max-width: 240px;}
 
 .filter .form-block + .form-block ::ng-deep .mdc-text-field--filled{ border-left: none !important;}
 ::ng-deep .mat-mdc-form-field{ display: flex !important;}

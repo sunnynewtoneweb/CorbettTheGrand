@@ -10,7 +10,7 @@
 </section>
 
 <!-- Book a Room -->
-<section class="py-120">
+<section class="py-120 bg-white">
 	<div class="container">
 		<h2 class="sec-title text-center">Book Your Stay at Corbett The Grand</h2>
 		<p class="mb-30 text-center sec-info">Step into the lush tranquility of Corbett The Grand—set across 18 acres of landscaped gardens near Jim Corbett National Park, surrounded by mango and lychee orchards and swaying paddy fields.</p>
@@ -559,7 +559,11 @@
 							</div>
 							<div id="collapseAside1" class="accordion-collapse collapse show" data-bs-parent="#accordionAside">
 								<div class="accordion-body">
-									<div class="default-calendar" id="availability-calendar"></div>
+									<div class="default-calendar">
+										<mat-card class="demo-inline-calendar-card">
+											<mat-calendar [(selected)]="selected"></mat-calendar>
+										</mat-card>
+									</div>
 								</div>
 							</div>
 						</div>

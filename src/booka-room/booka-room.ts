@@ -1,6 +1,7 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, model} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {provideNativeDateAdapter} from '@angular/material/core';
+import {MatCardModule} from '@angular/material/card';
 import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
@@ -21,7 +22,7 @@ interface Gst {
   selector: 'app-booka-room',
   templateUrl: './booka-room.html',
   styleUrl: './booka-room.css',
-  imports: [MatFormFieldModule, MatDatepickerModule, FormsModule, MatSelectModule, MatInputModule, MatButtonModule, MatExpansionModule],
+  imports: [MatFormFieldModule, MatCardModule, MatDatepickerModule, FormsModule, MatSelectModule, MatInputModule, MatButtonModule, MatExpansionModule],
   providers: [provideNativeDateAdapter()],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
@@ -35,4 +36,5 @@ havegst: Gst[] = [
     {value: 'Yes-0', viewValue: 'Yes'},
     {value: 'No-1', viewValue: 'No'},
   ];
+  selected = model<Date | null>(null);
 }

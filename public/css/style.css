@@ -111,13 +111,13 @@ textarea.form-control{ padding: 10px 20px; height: 100px;}
 .header__sec .dropdown-item{ padding: 8px 20px; color: var(--titleColor); font-weight: 400; font-family: var(--bodyFont);}
 .header__sec .dropdown-item:hover, .header__sec .dropdown-item:focus{ background: var(--secondaryColor); color: var(--whiteColor);}
 
-.book_btn{ padding: 30px 30px; margin: 0; font-size: 20px; font-weight: bold; font-family: var(--fancyFont); color: var(--blackColor); text-transform: uppercase; display: inline-flex; background: var(--primaryColor); justify-content: center; text-align: center;}
-.book_btn:hover{ background: var(--light-primaryColor); color: var(--blackColor);}
+.book_btn[matbutton="filled"]{ padding: 30px 30px; margin: 0; font-size: 20px; font-weight: bold; font-family: var(--fancyFont); color: var(--blackColor) !important; text-transform: uppercase; display: inline-flex; background: var(--primaryColor) !important; justify-content: center; text-align: center; border-radius: 0 !important; height: auto !important;}
+.book_btn[matbutton="filled"]:hover{ background: var(--light-primaryColor) !important; color: var(--blackColor) !important;}
 
-.ph_btn{ margin: 0 20px 0 0; padding: 11px 20px; font-size: 18px; color: var(--secondaryColor); background: transparent; border: 1px solid var(--secondaryColor); font-family: var(--fancyFont); gap: 6px; display: inline-flex; align-items: center; justify-content: center; text-align: center;}
-.ph_btn img{ transition:all .3s ease-in-out;}
-.ph_btn:hover{ background: var(--secondaryColor); color: var(--whiteColor);}
-.ph_btn:hover img{ filter: brightness(0) invert(1);}
+.ph_btn[matbutton="filled"]{ margin: 0 20px 0 0; padding: 11px 20px; font-size: 18px; color: var(--secondaryColor) !important; background: transparent !important; border: 1px solid var(--secondaryColor) !important; font-family: var(--fancyFont); gap: 6px; display: inline-flex; align-items: center; justify-content: center; text-align: center; border-radius: 0 !important; height: auto !important;}
+.ph_btn[matbutton="filled"] img{ transition:all .3s ease-in-out;}
+.ph_btn[matbutton="filled"]:hover{ background: var(--secondaryColor) !important; color: var(--whiteColor) !important;}
+.ph_btn[matbutton="filled"]:hover img{ filter: brightness(0) invert(1);}
 
 @media (min-width: 1200px) {
 .header__sec .offcanvas { visibility: visible; position: relative; background: none; border: none; justify-content: end; }
@@ -208,9 +208,9 @@ section{ padding:0; margin:0;}
 
 /* Filter */
 .filter{ display: grid; grid-template-columns: 1fr 1fr auto; gap: 20px; align-items: flex-end; margin-top: -107px; position: relative; z-index: 55;}
-.filter .checkinout, .filter .personcount{ display: flex;}
+.filter .checkinout, .filter .personcount{ display: flex; position: relative; z-index: 2;}
 .filter .form-block{ margin: 0; padding: 0; flex: 1 0 0; position: relative;}
-.filter .form-block label{ margin: 0 0 7px; display: block; font-weight: 600; color: var(--whiteColor); text-transform: uppercase;}
+.filter .form-block label{ margin: 0 0 7px; display: block; font-weight: 600; color: var(--whiteColor); text-transform: uppercase; overflow: hidden; width:100%; display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
 .filter .form-block .form-control{ width: 100%; height: 55px; padding: 0 23px; font-size: 17px; color: var(--txtColor); border: 1px solid #B3B3B3 !important; border-radius: 0; box-shadow: none; background: var(--whiteColor);}
 .filter .form-block + .form-block .form-control, .filter .form-block + .form-block .adult_btn{ border-left: none;}
 .filter .form-block .adult_btn{ width: 100%; height: 55px; padding: 0 23px; font-size: 17px; color: var(--txtColor); border: 1px solid #B3B3B3; border-radius: 0; box-shadow: none; background: var(--whiteColor); text-align: left;}
